@@ -2,8 +2,6 @@
 # 📌 Professional Fabric Recommender Web App (Enhanced UI)
 # ================================
 
-
-pip install sklearn.ensemble
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -151,5 +149,6 @@ h2, h3 {
 }
 </style>
 """, unsafe_allow_html=True)
+
 
 
