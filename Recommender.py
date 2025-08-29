@@ -1,3 +1,4 @@
+pip install sklearn.ensemble
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -62,3 +63,4 @@ if st.button("Recommend Fabric"):
     shap_values = explainer(user_scaled)
     st.write("### 🔍 Why this fabric?")
     st.pyplot(shap.plots.waterfall(shap_values[0], show=False))
+
